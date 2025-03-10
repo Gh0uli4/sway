@@ -2,7 +2,7 @@
 
 ## Soft
 
-pacman: sway swaybg pipewire pipewire-alsa pipewire-pulse gst-plugin-pipewire pavucontrol gnome-tweaks lxappearance mako kitty code waybar wofi nemo firefox git vim steam mesa vulkan-radeon amdvlk intel-ucode fish wayland xorg wlroots  ttf-jetbrains-mono obsidian obs-studio polkit-gnome grim slurp wl-clipboard swappy shotwell mpv 
+pacman: sway swaybg pipewire pipewire-alsa pipewire-pulse gst-plugin-pipewire pavucontrol gnome-tweaks lxappearance mako kitty code waybar wofi nemo firefox git vim steam mesa vulkan-radeon amdvlk intel-ucode fish wayland xorg wlroots  ttf-jetbrains-mono obsidian obs-studio polkit-gnome grim slurp wl-clipboard swappy shotwell mpv libreoffice-fresh
 
 yay: cava ani-cli legcord kotatogram-desktop-bin 
 
