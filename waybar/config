@@ -1,0 +1,48 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 24,
+  "spacing": 4,
+  "modules-left": [
+    "sway/workspaces"
+  ],
+  "modules-center": [
+    "sway/window"
+  ],
+  "modules-right": [
+    "tray",
+    "wireplumber",
+    "sway/language",
+    "clock"
+  ],
+
+  "sway/workspaces": {
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e-1",
+    "on-scroll-down": "hyprctl dispatch workspace e+1"
+  },
+  "clock": {
+    "format": "{:%H:%M}"
+  },
+  "tray": {
+    "spacing": 4
+  },
+
+  "sway/language": {
+    "format-ru": "RU",
+    "format-en": "US"
+  },
+
+  "wireplumber": {
+    "format": "♫ {volume}%",
+    "format-muted": "muted :(", 
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+},
+
+"sway/window": {
+  "format": "{}",
+  "max-length": 50,
+  "format-alt": "" 
+}
+}
