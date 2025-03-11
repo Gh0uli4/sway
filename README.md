@@ -1,7 +1,8 @@
 # SWAY
 
-Theme: Catppuccin-frappe-theme
-Icons: Catppuccin-frappe-icons
+#### Theme: Catppuccin-frappe-theme
+
+#### Icons: Catppuccin-frappe-icons
 
 ## SOFT
 
