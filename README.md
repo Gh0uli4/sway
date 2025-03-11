@@ -1,12 +1,15 @@
-# sway
+# SWAY
 
-## Soft
+Theme: Catppuccin-frappe-theme
+Icons: Catppuccin-frappe-icons
 
-pacman: sway swaybg pipewire pipewire-alsa pipewire-pulse gst-plugin-pipewire pavucontrol gnome-tweaks lxappearance mako kitty code waybar wofi nemo firefox git vim steam mesa vulkan-radeon amdvlk intel-ucode fish wayland xorg wlroots  ttf-jetbrains-mono obsidian obs-studio polkit-gnome grim slurp wl-clipboard swappy shotwell mpv libreoffice-fresh
+## SOFT
 
-yay: cava ani-cli legcord kotatogram-desktop-bin 
+pacman: sway swaybg pipewire pipewire-alsa pipewire-pulse gst-plugin-pipewire pavucontrol gnome-tweaks lxappearance mako kitty code waybar wofi nemo firefox git vim steam mesa vulkan-radeon amdvlk intel-ucode fish wayland xorg wlroots  ttf-jetbrains-mono obsidian obs-studio polkit-gnome grim slurp wl-clipboard swappy shotwell mpv libreoffice-fresh wf-recorder xdg-desktop-portal wf-recorder xdg-desktop-portal  noto-fonts noto-fonts-cjk noto-fonts-emoji rclone 
 
-## yay install:
+yay: cava ani-cli legcord kotatogram-desktop-bin minecraft-launcher
+
+## YAY
 
 sudo pacman -S --needed git base-devel
 
@@ -16,7 +19,7 @@ cd yay
 
 makepkg -si
 
-xdg-desktop-portal-wlr properly
+## SCREENSHOTS
 
 ![screen1](https://github.com/Gh0uli4/sway/blob/main/assets/1.png)
 
