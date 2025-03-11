@@ -17,3 +17,9 @@ cd yay
 makepkg -si
 
 xdg-desktop-portal-wlr properly
+
+![screen1](https://github.com/Gh0uli4/sway/blob/main/assets/1.png)
+
+![screen2](https://github.com/Gh0uli4/sway/blob/main/assets/2.png)
+
+![screen3](https://github.com/Gh0uli4/sway/blob/main/assets/3.png)
