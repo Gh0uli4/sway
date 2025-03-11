@@ -100,8 +100,15 @@ window#waybar {
 /* Стили для трея */
 #tray {
     background: #414559; /* Surface0 */
-    padding: 0 10px; /* Внутренние отступы */
+    padding: 5px 10px; /* Внутренние отступы */
     margin-right: 5px; /* Внешние отступы */
+    border: solid #babbf1 2px;
+    border-radius: 10px;
+}
+
+/* Отступы между иконками в трее */
+#tray > * {
+    margin: 0 5px; /* Отступы между иконками */
 }
 
 #tray > .passive {
