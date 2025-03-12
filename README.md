@@ -2,7 +2,7 @@
 
 #### Theme: Catppuccin-frappe-theme
 
-#### Icons: Catppuccin-frappe-icons
+#### Icons: Papirus-dark
 
 ## SOFT
 
