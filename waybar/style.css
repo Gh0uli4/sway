@@ -57,6 +57,7 @@ window#waybar {
 
 #workspaces button.urgent {
     background-color: #e78284; /* Красный фон */
+    border-radius: 10px;
 }
 
 /* Центральный блок (активное окно) */
