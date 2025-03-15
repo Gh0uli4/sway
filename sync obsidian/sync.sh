@@ -1,4 +1,4 @@
 while true; do
-  rclone sync ~/dir dgrive:dir
+  rclone sync ~/dir name_drive:dir
   sleep 60
 done
