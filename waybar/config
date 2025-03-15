@@ -10,6 +10,7 @@
     "sway/window"
   ],
   "modules-right": [
+    "custom/wireguard",
     "tray",
     "wireplumber",
     "sway/language",
@@ -22,8 +23,8 @@
     "on-scroll-down": "hyprctl dispatch workspace e+1"
   },
   "clock": {
-    "format": "{:%H:%M}"
-  },
+		"format": "| {:%a  %b  %d | %H:%M %p} |"
+	},
   "tray": {
     "spacing": 4
   },
@@ -46,6 +47,6 @@
 "sway/window": {
   "format": "{}",
   "max-length": 50,
-  "format-alt": "" 
+  "format-alt": "~" 
 }
 }
