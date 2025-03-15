@@ -1,6 +1,7 @@
 #-----------Autostart-----------------------------------------
 exec waybar
-exec exec swaymsg "workspace 10; exec kotatogram-desktop" 
+exec ~/.config/sway/sync.sh
+exec exec swaymsg "workspace 10; exec telegram-desktop"  
 exec maco
 exec firefox
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -36,7 +37,7 @@ workspace 10 output HDMI-A-1
 
 # output HDMI-A-1 resolution 1920x1080@60
 
-output * bg ~/wallpaper/1.png fill
+output * bg ~/wallpaper/astronaut.png fill
 
 #-----------Key bindings----------------------------------------
 
@@ -165,27 +166,27 @@ bindsym --to-code $mod+minus scratchpad show
 
 #-----------Resizing containers:-----------------------------------
 
-mode "resize" {
+#mode "resize" {
     # left will shrink the containers width
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
-    bindsym --to-code h resize shrink width 10px
-    bindsym --to-code j resize grow height 10px
-    bindsym --to-code k resize shrink height 10px
-    bindsym --to-code l resize grow width 10px
+    #bindsym --to-code h resize shrink width 10px
+    #bindsym --to-code j resize grow height 10px
+    #bindsym --to-code k resize shrink height 10px
+    #bindsym --to-code l resize grow width 10px
 
     # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
+    #bindsym Left resize shrink width 10px
+    #bindsym Down resize grow height 10px
+    #bindsym Up resize shrink height 10px
+    #bindsym Right resize grow width 10px
 
     # Return to default mode
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym --to-code $mod+r mode "resize";
+    #bindsym Return mode "default"
+    #bindsym Escape mode "default"
+#}
+#bindsym --to-code $mod+r mode "resize";
 
 # Utilities:
 
@@ -250,6 +251,7 @@ gaps outer 5
 for_window [title=".*"] titlebar disable
 for_window [title="Shotwell"] floating enable, resize set width 25% height 25%, move position 30% 30%
 for_window [title="mpv"] floating enable, resize set width 25% height 25%, move position 30% 30%
+for_window [title="Volume Control"] floating enable, resize set width 25% height 25%, move position 30% 30%
 
 assign [class="TelegramDesktop"] 10
 
