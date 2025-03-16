@@ -1,32 +1,42 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 24,
+  "height": 14,
   "spacing": 4,
-  "modules-left": [
-    "sway/workspaces"
-  ],
-  "modules-center": [
-    "sway/window"
-  ],
-  "modules-right": [
-    "custom/wireguard",
-    "tray",
-    "wireplumber",
-    "sway/language",
-    "clock"
-  ],
+
+
+  "modules-left": ["sway/workspaces"],
+
+  "modules-center": ["sway/window"],
+
+  "modules-right": ["tray", "wireplumber", "sway/language", "clock"],
 
   "sway/workspaces": {
     "on-click": "activate",
     "on-scroll-up": "hyprctl dispatch workspace e-1",
-    "on-scroll-down": "hyprctl dispatch workspace e+1"
+    "on-scroll-down": "hyprctl dispatch workspace e+1",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": ""
+    }
   },
+  
   "clock": {
-		"format": "| {:%a  %b  %d | %H:%M %p} |"
-	},
+    "format": "{:%H:%M}",
+    "on-click": "obsidian"
+
+
+  },
   "tray": {
-    "spacing": 4
+    "spacing": 3
   },
 
   "sway/language": {
@@ -35,10 +45,17 @@
   },
 
   "wireplumber": {
-    "format": "{icon} {volume}%",
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "",
     "format-icons": {
-        "headphones": "",
-        "default": ["", "", ""]
+    "headphones": "",
+    "handsfree": "",
+    "headset": "",
+    "phone": "",
+    "portable": "",
+    "car": "",
+    "default": ["", ""]
     },
     "scroll-step": 1,
     "on-click": "pavucontrol"
@@ -46,7 +63,8 @@
 
 "sway/window": {
   "format": "{}",
-  "max-length": 50,
-  "format-alt": "~" 
+  "max-length": 50
 }
+
+
 }
