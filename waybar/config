@@ -29,12 +29,25 @@
     }
   },
   
-  "clock": {
-    "format": "{:%H:%M}",
-    "on-click": "obsidian"
+      "clock": {
+      "format": "{:%H:%M}",
+      "tooltip-format": "<tt><small>{calendar}</small></tt>",
+      "on-click": "obsidian",
+      "calendar": {
+                  "mode"          : "year",
+                  "mode-mon-col"  : 3,
+                  "weeks-pos"     : "right",
+                  "on-scroll"     : 1,
+                  "format": {
+                            "months":     "<span color='#5e81ac'><b>{}</b></span>",
+                            "days":       "<span color='#f4dbd6'><b>{}</b></span>",
+                            "weeks":      "<span color='#ebcb8b'><b>W{}</b></span>",
+                            "weekdays":   "<span color='#81a1c1'><b>{}</b></span>",
+                            "today":      "<span color='#bf616a'><b><u>{}</u></b></span>"
+                            }
+                  }
+    },
 
-
-  },
   "tray": {
     "spacing": 3
   },
