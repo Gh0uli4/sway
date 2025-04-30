@@ -6,6 +6,7 @@ exec maco
 exec firefox
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec swaymsg workspace 1
+exec nm-applet --indicator
 
 #-----------Variables-----------------------------------------
 
