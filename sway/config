@@ -15,7 +15,7 @@ set $mod Mod4
 # Your preferred terminal emulator
 set $term alacritty
 # Your preferred applicnation launcher
-set $menu wofi --show drun
+set $menu rofi -show drun
 # Browser
 set $browser firefox
 # Files
@@ -38,7 +38,7 @@ workspace 10 output HDMI-A-1
 
 # output HDMI-A-1 resolution 1920x1080@60
 
-output * bg ~/wallpaper/astronaut.png fill
+output * bg ~/Pictures/Wallpaper/4.png fill
 
 #-----------Key bindings----------------------------------------
 
@@ -244,8 +244,10 @@ default_border pixel 1
 default_floating_border pixel 1
 
 # Gaps
-gaps inner 3
-gaps outer 3
+gaps inner 0
+gaps outer 0
+
+
 
 #-----------Window-rules-----------------------------------------------
 

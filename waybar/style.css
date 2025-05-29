@@ -21,7 +21,7 @@
 @define-color surface2 #5b6078;
 @define-color surface1 #494d64;
 @define-color surface0 #363a4f;
-@define-color base #24273a;
+@define-color base #282A36;
 @define-color mantle #1e2030;
 @define-color crust #181926;
 
@@ -36,6 +36,7 @@
   window#waybar {
     color: @text;
     background: @base;
+    margin-top: 5px;
   }
 
   #workspaces,
