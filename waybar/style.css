@@ -11,17 +11,17 @@
 @define-color sky #91d7e3;
 @define-color sapphire #7dc4e4;
 @define-color blue #8aadf4;
-@define-color lavender #b7bdf8;
-@define-color text #cad3f5;
+@define-color lavender #d79921;
+@define-color text #a1cc91;
 @define-color subtext1 #b8c0e0;
 @define-color subtext0 #a5adcb;
 @define-color overlay2 #939ab7;
-@define-color overlay1 #8087a2;
+@define-color overlay1 #3c3836;
 @define-color overlay0 #6e738d;
 @define-color surface2 #5b6078;
-@define-color surface1 #494d64;
+@define-color surface1 #B7201A;
 @define-color surface0 #363a4f;
-@define-color base #282A36;
+@define-color base #1a1817;
 @define-color mantle #1e2030;
 @define-color crust #181926;
 
@@ -92,6 +92,10 @@
 
   #tray {
     margin-right: 5px; /* Внешние отступы */
+    border: solid #a1cc91 2px;
+    border-radius:10px;
+    margin:3px;
+    border-color:#d79921;
   }
 
   #tray > .passive {
