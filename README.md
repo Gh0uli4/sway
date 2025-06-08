@@ -1,8 +1,6 @@
 # SWAY
 
-#### Theme: Gruvbox-dark-soft
-
-#### Icons: Tela-circle-dark-brown
+#### Theme: Gruvbox-material dark (https://github.com/TheGreatMcPain/gruvbox-material-gtk)
 
 ## SOFT
 
